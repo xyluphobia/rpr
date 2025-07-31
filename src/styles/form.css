@@ -1,0 +1,36 @@
+
+.form-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.form-body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+}
+
+.collapsibleButtonDetailedRatings {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsibleButtonDetailedRatings:hover {
+  background-color: #555;
+}
+
+.collapsibleContentDetailedRatings {
+  padding: 0 18px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
